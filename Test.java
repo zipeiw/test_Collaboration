@@ -33,6 +33,17 @@ public class Test {
 		}
 	}
 
+	public static class TripleNode {
+		public int value;
+		public TripleNode last;
+		public TripleNode next;
+
+		public DoubleNode(int data) {
+			this.value = data;
+		}
+	}
+
+
 	public static void printLinkedList(Node head) {
 		System.out.print("Linked List: ");
 		while (head != null) {
@@ -50,6 +61,7 @@ public class Test {
 			end = head;
 			head = head.next;
 		}
+		System.out.println("hahahah");
 		System.out.print("| ");
 		while (end != null) {
 			System.out.print(end.value + " ");
