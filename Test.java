@@ -10,6 +10,9 @@ public class Test {
 			this.value = data;
 		}
 	}
+	public int oneaddone(int x){
+		return 1 + x;
+	}
 
 	public static Node reverseList(Node head) {
 		Node pre = null;
