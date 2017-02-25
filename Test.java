@@ -56,6 +56,10 @@ public class Test {
 		System.out.println();
 	}
 
+	public static void printLinkedList(Node hhh) {
+		System.out.println();
+	}
+
 	public static void printDoubleLinkedList(DoubleNode head) {
 		System.out.print("Double Linked List: ");
 		DoubleNode end = null;
