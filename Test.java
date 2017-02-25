@@ -43,6 +43,9 @@ public class Test {
 		}
 	}
 
+	public staic void testFunction(int x) {
+		x = x + 1;
+	}
 
 	public static void printLinkedList(Node head) {
 		System.out.print("Linked List: ");
